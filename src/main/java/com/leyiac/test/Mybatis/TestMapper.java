@@ -1,8 +1,10 @@
 package com.leyiac.test.Mybatis;
 
+import java.util.List;
+
 public interface TestMapper {
 	
-	public TestModel getModel();
+	public List<TestModel> getModel();
 	
 	public int insertModel(TestModel model);
 	
